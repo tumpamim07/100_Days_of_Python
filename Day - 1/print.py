@@ -13,3 +13,11 @@ print("5. Bake at 200 degrees C for 30 minutes.")
 #print modifiers
 print('She said: "Hello" and then left.')
 print("She said: \"Hello\" and then left.")
+
+
+#string manipulation
+print("Hello world\nHello Hi\nBye Bye")
+
+print("Hello" + " Coder")
+print("Hello " + "Coder")
+print("Hello" + " " + "Coder")
