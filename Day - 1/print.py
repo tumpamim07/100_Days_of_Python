@@ -21,3 +21,8 @@ print("Hello world\nHello Hi\nBye Bye")
 print("Hello" + " Coder")
 print("Hello " + "Coder")
 print("Hello" + " " + "Coder")
+
+
+print("A 'single quote' inside a double quote")
+print('a "double quote" inside a single quote')
+print("Alternatively you can just \"escape\" the quote")
