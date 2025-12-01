@@ -7,12 +7,14 @@
 # print("Your name has " + new_num_char + " characters.")  # Concatenate (join) string with string
 
 
-# Example of different data types conversion in Python
+# Example of different data types conversion/casting in Python
 
 a = 100
 print(type(a))  
 # Output: <class 'int'>
 # Here, a is an integer (whole number)
+
+print(type("Hello"))
 
 
 b = str(100)
@@ -35,3 +37,15 @@ print(70 + float("100.75"))
 print(str(100) + str(25.5))
 # Both numbers converted into strings → joined together
 # Output: "10025.5" (not addition, just string concatenation)
+
+
+print(type("32"))
+print(type(32))
+print(type(32.5))
+print(type(True))
+
+# print("Number of letters in your name: " + len(input("Enter Your name")))
+
+name = input("Enter Your Name\n")
+length_of_name = len(name)
+print("Number of letters in your name: " + str(length_of_name))
