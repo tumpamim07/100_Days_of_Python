@@ -1,3 +1,22 @@
+"""
+Write a Python program that decides whether a person is allowed to ride a rollercoaster and calculates their ticket price based on age and additional options.
+
+Requirements:
+Ask the user for their height in cm.
+If the height is 120 cm or more, they are allowed to ride.
+Otherwise, print:
+"Sorry you have to grow taller before you can ride."
+If they can ride, ask for their age and determine the ticket price:
+Age 12 or below → ticket price = $5
+Age 13-18 → ticket price = $7
+Age 19 or above → ticket price = $12
+Then ask if they want a photo:
+If they type "y", add $3 to the total bill.
+Finally, print their total bill in the format:
+"Your final bill is $X"
+
+"""
+
 print("Welcome to the rolllercoaster!")
 height = int(input("What is your height in cm? "))
 
