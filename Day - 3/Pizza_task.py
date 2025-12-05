@@ -1,3 +1,25 @@
+
+"""
+Write a Python program that calculates the final bill for a pizza order based on user choices.
+
+Requirements:
+Ask the user what size pizza they want:
+S = Small → $15
+M = Medium → $20
+L = Large → $25
+Ask if they want pepperoni:
+If Yes and size is S → add $2
+If Yes and size is M or L → add $3
+Ask if they want extra cheese:
+If Yes → add $1
+If the user types an invalid size, show:
+"You typed the wrong inputs."
+Then stop the program.
+Print the final bill:
+"Total bill will be $X"
+
+"""
+
 print("Welcome to Python Pizza Deliveries!")
 
 size = input("What size pizza do you want? S, M or L: ")
