@@ -10,10 +10,11 @@ print(chosen_word)
 
 placeholder = ""
 word_length = len(chosen_word)
-for position in range(word_length):
-        placeholder += "_"
-print(placeholder)
 
+for position in range(word_length):
+    placeholder += "_"
+print(placeholder)
+    
 
 
 """
@@ -24,14 +25,13 @@ TODO - 2 - "Create an empty string called "display". Loop through each letter in
 
 """
 
+guess_letter = input("Guess a letter: ").lower()
+print(guess_letter)
+
 display = ""
-
-guees_letter = input("Guess a Letter: ").lower()
-print(guees_letter)
-
 for letter in chosen_word:
-        if letter == guees_letter:
-                display += letter
-        else:
-                display += "_"
-print(display)
+    if letter == guess_letter:
+        display += letter
+    else:
+        display += "_"
+print(display) 
